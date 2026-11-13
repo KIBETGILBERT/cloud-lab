@@ -1,13 +1,11 @@
 # Cloud Lab
 
-My first cloud lab - nginx + postgres with docker.
+My learning lab for Cloud / DevOps.
 
-## What is this?
-A secure docker-compose setup with environment variables and restart policy.
+## Structure
+- `docker/` - Docker projects
+- `terraform/` - Terraform / Infrastructure as Code projects
+- `python/` - Python automation projects
 
-## How to run
-docker compose up -d
-docker ps
-
-## How to stop
-docker compose down
+## Rule
+1 folder = 1 project. Never mix.
